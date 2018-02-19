@@ -9,8 +9,11 @@ Sortable header with custom comparator functions
 Resizable columns
 Installation
 git clone https://github.com/Snakelight/angular-scrollable-table
+
 Usage
-# angular.module('myApp', ['scrollable-table', ...]);
+```
+angular.module('myApp', ['scrollable-table', ...]);
+```
 Example
 ```
 <scrollable-table watch="visibleProjects">
