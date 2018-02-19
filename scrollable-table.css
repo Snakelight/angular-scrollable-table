@@ -1,4 +1,5 @@
 ﻿.scrollableContainer {
+    width: 100%;
     height: 310px;
     position: relative;
     padding-top: 35px;
