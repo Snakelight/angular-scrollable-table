@@ -10,8 +10,9 @@ Resizable columns
 Installation
 git clone https://github.com/Snakelight/angular-scrollable-table
 Usage
-angular.module('myApp', ['scrollable-table', ...]);
+# angular.module('myApp', ['scrollable-table', ...]);
 Example
+```
 <scrollable-table watch="visibleProjects">
   <table class="table table-striped table-bordered">
     <thead>
@@ -35,8 +36,9 @@ Example
     </tfoot>
   </table>
 </scrollable-table>
+```
 where the controller contains
-
+```
     $scope.visibleProjects = [{
       facility: "Atlanta",
       code: "C-RD34",
@@ -50,11 +52,12 @@ where the controller contains
        $scope.$broadcast("rowSelected", fac);
     });
 })
+```
 Third-party dependencies:
 
 jQuery
 Bootstrap 3 CSS (for styling, optional. See the 'bootstrap2' branch also)
-Demo here: https://jsfiddle.net/alalonde/BrTzg/
+Demo here: https://jsfiddle.net/onot2tuy/
 
 More infomation here: http://blog.boxelderweb.com/2013/12/19/angularjs-fixed-header-scrollable-table/
 
@@ -63,4 +66,4 @@ License: MIT
 FAQ
 How do I change the height of the table?
 
-See here: https://jsfiddle.net/alalonde/qgc2gp7d/2/
+See here: https://jsfiddle.net/j4sy8xs7/
