@@ -8,8 +8,9 @@ Scroll to row
 Sortable header with custom comparator functions
 Resizable columns
 Installation
+```
 git clone https://github.com/Snakelight/angular-scrollable-table
-
+```
 Usage
 ```
 angular.module('myApp', ['scrollable-table', ...]);
