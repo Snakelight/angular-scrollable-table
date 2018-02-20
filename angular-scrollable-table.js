@@ -145,7 +145,8 @@
                             var minWidth = _getScale(el.parent().css('min-width')),
                                 title = el.parent().attr("title");
                             headerWidth = Math.max(minWidth, headerWidth);
-                            el.css("width", headerWidth);
+                            el.css("text-align", "left"); 
+                            //el.css("width", headerWidth);
                             if (!title) {
                                 // ordinary column(not sortableHeader) has box child div element that contained title string.
                                 title = el.find(".title .ng-scope").text() || el.find(".box").text();
