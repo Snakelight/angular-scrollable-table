@@ -9,7 +9,7 @@ Sortable header with custom comparator functions
 Resizable columns
 Installation
 ```
-git clone https://github.com/Snakelight/angular-scrollable-table
+git clone https://github.com/Snakelight/angular-scrollable-table-1.0.1
 ```
 Usage
 ```
